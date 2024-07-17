@@ -1,0 +1,8 @@
+ class Palindrome {
+    public static void main(String[] args) {
+        String str = "madam";
+        String reverse = new StringBuilder(str).reverse().toString();
+        String palindrome = str + reverse.substring(1);
+        System.out.println("Palindrome String: " + palindrome);
+    }
+}
